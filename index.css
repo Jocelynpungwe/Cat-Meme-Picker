@@ -104,19 +104,14 @@ input[type="radio"]{
     margin: 16px;
 }
 
+.anim-gif-only{
+    cursor: pointer;
+}
+
 .gifs-check-label{
     width: unset;
     margin-right: 5px;
-}
-
-.get-image-btn{
-    background-color: #67595e;
-    color: #eed6d3;
-    padding: 15px 19px;
-    font-size: 24px;
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 8px;
+    
 }
 
 /* modal */
@@ -141,6 +136,27 @@ input[type="radio"]{
     max-width: 340px;
     max-height: 420px;
     border-radius: 5px;
+}
+
+/* button */
+
+
+.get-image-btn{
+    background-color: #67595e;
+    color: #eed6d3;
+    padding: 15px 19px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: 500ms ease-out;
+}
+.get-image-btn:hover,
+.get-image-btn:focus{
+
+    background: #382d2c;
+    transition: 500ms ease-in;
 }
 
 .meme-modal-close-btn{
